@@ -32,6 +32,8 @@ Values 0-6 are valid for lampbelt_leds_mode but 2 is the best one
 ## Notes:
 Tested on a Unihertz Jelly Star running AndyYan's LineageOS GSI - lineage-21.0-20260324-UNOFFICIAL-arm64_bvN
 
+This app does nothing special, You can do what this app does with a root ADB shell or Termux
+
 As this app writes direct values to the LED brightness controls this may cause overheating/battery drain if the LEDs are left on
 
 The rear LED ring will automatically turn off when the screen turns off
