@@ -7,6 +7,15 @@ Also adds a quick settings tile for turning the LED ring on/off
 
 Requires root access
 
+<p float="left">
+
+<img src="https://github.com/KawashiroDev/JellyStarLEDControl/raw/main/screenshots/Screenshot_20260406-172754_Jelly%20LED%20Control.png" width="250">
+
+<img src="https://github.com/KawashiroDev/JellyStarLEDControl/raw/main/screenshots/Screenshot_20260406-172913_Jelly%20LED%20Control.png" width="250">
+
+</p>
+
+
 ## What this does:
 
 Changing the brightness value writes 1-255 to /sys/bus/platform/devices/lampbelt_leds/driver/lampbelt_leds_duty
