@@ -22,6 +22,8 @@ Changing the brightness value writes 1-255 to /sys/bus/platform/devices/lampbelt
 
 Writing a 0 to this turns off the lights
 
+The quick tile toggles between 255 and 0 to lampbelt_leds_duty
+
 The "mode 2" button writes a 2 to /sys/bus/platform/devices/lampbelt_leds/driver/lampbelt_leds_mode which causes the lights to flash in a pattern
 
 Values 0-6 also do something but 2 is the best one
